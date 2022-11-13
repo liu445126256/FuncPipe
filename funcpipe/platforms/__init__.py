@@ -1,0 +1,1 @@
+from funcpipe.platforms.platform import Platform

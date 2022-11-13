@@ -1,0 +1,1 @@
+from funcpipe.funcpipe import FuncPipe
