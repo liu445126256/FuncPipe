@@ -5,6 +5,7 @@ from funcpipe.platforms import Platform
 
 # direct trigger
 if __name__ == "__main__":
+    # partition and resource configuration policy
     partition_plan = [4, 3, 3, 3, 3, 3, 5, 1, 1]
     data_parallelism = [4, 4, 4, 4, 4, 4, 4, 4, 4]
     resource_type = [4096, 5120, 8192, 4096, 4096, 6144, 5120, 10240, 8192]
