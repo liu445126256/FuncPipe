@@ -127,7 +127,7 @@ def handler(event, context=None):
             for epoch_id in range(epoches):
                 for batch_id in range(iter_num_per_epoch):
                     Logger.info("Rank: %d   Epoch: %d   Batch: %d" % (my_rank, epoch_id, batch_id))
-                    model.pipeline_train(None, None)
+                    model.pipeline_train(None, None) # use synthetic data input for debugging
         else:
             for epoch_id in range(epoches):
                 for batch_id, batch in enumerate(train_data_loader):

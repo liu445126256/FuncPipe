@@ -5,7 +5,7 @@ import time
 import logging
 
 app = Flask(__name__)
-log = logging.getLogger('werkzeug')
+log = logging.getLogger('funcpipe-debugging')
 log.disabled = True
 app.logger.disabled = True
 
